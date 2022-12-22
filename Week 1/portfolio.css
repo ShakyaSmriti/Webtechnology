@@ -1,0 +1,12 @@
+h1{
+    color: aqua;
+    font-style: italic;
+    background-color: black
+}
+table{
+    color: blue;
+    table-layout: fixed;
+}
+p {
+    color: bisque;
+    
