@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+}
+.flexbox-container{
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+.flexbox-item{
+    background-color: aquamarine;
+    border: 1px solid black;
+    text-align: center;
+    padding: 30px;
+    color: black;
+}
+.flexbox-item-1, .flexbox-item-4{
+    grid-column: span 3;
+}
+.flexbox-item-2{
+    grid-column: span 2;
+    grid-row: span 3;
+}
+.flexbox-item-3{
+    grid-column: span 1;
+    grid-row: span 3;
+}
